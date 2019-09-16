@@ -1,14 +1,11 @@
-# savignano-test2
+# savignano-flex
 
-A library of React components created using [`savignano-test2`](https://www.npmjs.com/package/savignano-test2).
-
+Use flex without inline styles [`savignano-flex`](https://www.npmjs.com/package/savignano-flex).
 
 
 ## Installation
 
 ```
-npm install savignano-test2
+npm install savignano-flex
 ```
-# savignano-test2
-# savignano-test2
 # savignano-flex
