@@ -29,6 +29,7 @@ export default {
     }),
     nodeResolve(),
     replace({ 'process.env.NODE_ENV': JSON.stringify(env) }),
-    commonjs()
+    commonjs(),
+    uglify()
   ]
 };
