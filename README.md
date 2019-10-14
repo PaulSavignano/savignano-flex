@@ -1,5 +1,7 @@
 <h1 align="center" color="#1976d2">savignano-flex<h1>
 
+[![codecov.io](https://codecov.io/gh/PaulSavignano/savignano-flex/branch/master/graph/badge.svg)](https://codecov.io/gh/PaulSavignano/savignano-flex)
+
 Use flex css without inline styles [`savignano-flex`](https://www.npmjs.com/package/savignano-flex).
 
 
