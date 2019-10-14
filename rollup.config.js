@@ -10,7 +10,7 @@ const env = process.env.NODE_ENV
 export default {
   input: 'src/lib/index.js',
   output: {
-    file: 'bundle.js',
+    file: 'dist/bundle.js',
     format: 'cjs'
   },
   external: [
