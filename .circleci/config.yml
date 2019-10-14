@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - codecov/upload:
-          file: {{ coverage_report_filepath }}
+          file: coverage/*.json
       - checkout
 
       # Download and cache dependencies
