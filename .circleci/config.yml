@@ -19,8 +19,6 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - codecov/upload:
-          file: coverage/*.json
       - checkout
 
       # Download and cache dependencies
@@ -39,3 +37,5 @@ jobs:
 
       # run tests!
       - run: yarn test
+      - codecov/upload:
+          file: coverage/*.json
