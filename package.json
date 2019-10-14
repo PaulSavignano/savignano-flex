@@ -50,5 +50,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build": "export NODE_ENV=production && rollup -c"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/lib/**/*.js",
+      "!src/lib/**/__tests__/**/*.js"
+    ]
   }
 }
