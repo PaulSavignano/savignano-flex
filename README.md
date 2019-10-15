@@ -1,4 +1,4 @@
-<h1 align="center">Savignano-Flex<h1>
+<h1 align="center">Savignano-Flex</h1>
 
 <div align="center">
 
