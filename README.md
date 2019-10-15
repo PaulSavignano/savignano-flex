@@ -1,8 +1,8 @@
-<h1 align="center" color="#1976d2">savignano-flex<h1>
+<h1 align="center">Savignano-Flex<h1>
 
 <div align="center">
 
-[React](https://reactjs.org/) component implementing flex styles.
+Write JavaScript Flex styles and have them served in css.
 
 [![NPM Version](https://img.shields.io/npm/v/savignano-flex.svg?style=flat)](https://www.npmjs.com/package/savignano-flex)
 [![NPM Downloads](https://img.shields.io/npm/dm/savignano-flex.svg?style=flat)](https://npmcharts.com/compare/savignano-flex?minimal=true)
@@ -15,7 +15,10 @@
 
 </div>
 
-Flex styles with css [`savignano-flex`](https://www.npmjs.com/package/savignano-flex).
+Savignano-Flex is a JavaScript library for styling user interfaces.
+
+* **Declarative:** Define the styles you need and enjoy the benefit of cached css without the cost of inline style redefinition.
+* **Flexible:** No pun intended.  Props that do not have css definitions will be inline styled.  You may also pass a style prop.  Have a className you'd like incorporated?  Pass in a className prop and have it concatenated.
 
 ## Installation
 
