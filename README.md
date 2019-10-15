@@ -1,6 +1,6 @@
 <h1 align="center" color="#1976d2">savignano-flex<h1>
 
-<div style="display: flex; flex-flow: row wrap; align-items: center;">
+<div>
 [![NPM Version](https://img.shields.io/npm/v/savignano-flex.svg?style=flat)](https://www.npmjs.com/package/savignano-flex)
 [![NPM Downloads](https://img.shields.io/npm/dm/savignano-flex.svg?style=flat)](https://npmcharts.com/compare/savignano-flex?minimal=true)
 [![CircleCI](https://img.shields.io/circleci/build/github/PaulSavignano/savignano-flex/master.svg)](https://circleci.com/gh/PaulSavignano/savignano-flex/tree/master)
