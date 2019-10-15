@@ -1,6 +1,8 @@
 <h1 align="center" color="#1976d2">savignano-flex<h1>
 
-<div style="display: flex; flex-flow: row wrap; align-items: center;">
+<div align="center">
+
+[React](https://reactjs.org/) component implementing flex styles.
 
 [![NPM Version](https://img.shields.io/npm/v/savignano-flex.svg?style=flat)](https://www.npmjs.com/package/savignano-flex)
 [![NPM Downloads](https://img.shields.io/npm/dm/savignano-flex.svg?style=flat)](https://npmcharts.com/compare/savignano-flex?minimal=true)
@@ -13,7 +15,7 @@
 
 </div>
 
-Use flex css without inline styles [`savignano-flex`](https://www.npmjs.com/package/savignano-flex).
+Flex styles with css [`savignano-flex`](https://www.npmjs.com/package/savignano-flex).
 
 ## Installation
 
@@ -23,7 +25,7 @@ npm install savignano-flex
 
 ## Usage
 
-Here is a quick example to get you started, **it's all you need**:
+Here is an example to get you started:
 
 ```jsx
 import React from 'react';

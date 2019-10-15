@@ -13,10 +13,9 @@ const classNameMap = {
     'flex-end': 'align-self-flex-end',
   },
   flex: {
+    '0 0 100px': 'flex-0-0-100px',
     '0 0 200px': 'flex-0-0-200px',
-    '0 0 250px': 'flex-0-0-250px',
     '0 0 300px': 'flex-0-0-300px',
-    '0 0 310px': 'flex-0-0-310px',
     '0 0 auto': 'flex-0-0-auto',
     '0 1 100px': 'flex-0-1-100px',
     '1 1 auto': 'flex-1-1-auto',
@@ -24,9 +23,11 @@ const classNameMap = {
     '3 3 auto': 'flex-3-3-auto',
   },
   flexFlow: {
-    row: 'flex-flow-row',
+    'column wrap': 'flex-flow-column-wrap-reverse',
     'row wrap': 'flex-flow-row-wrap',
+    'row wrap-reverse': 'flex-flow-row-wrap-reverse',
     column: 'flex-flow-column',
+    row: 'flex-flow-row',
   },
   justifyContent: {
     center: 'justify-content-center',
@@ -45,15 +46,16 @@ const classNameMap = {
   },
   padding: {
     0: 'padding-0px',
-    5: 'padding-5px',
-    10: 'padding-10px',
+    4: 'padding-4px',
+    8: 'padding-8px',
+    16: 'padding-16px',
   },
   margin: {
-    '-5': 'margin--5px',
+    '-4': 'margin--4px',
     0: 'margin-0px',
-    10: 'margin-10px',
-    2.5: 'margin-2.5px',
-    5: 'margin-5px',
+    4: 'margin-4px',
+    8: 'margin-8px',
+    16: 'margin-16px',
   },
 }
 
