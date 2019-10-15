@@ -15,10 +15,12 @@ Write JavaScript Flex styles and have them served in css.
 
 </div>
 
+
 Savignano-Flex is a JavaScript library for styling user interfaces.
 
 * **Declarative:** Define the styles you need and enjoy the benefit of cached css without the cost of inline style redefinition.
 * **Flexible:** No pun intended.  Props that do not have css definitions will be inline styled.  You may also pass a style prop.  Have a className you'd like incorporated?  Pass in a className prop and have it concatenated.
+
 
 ## Installation
 
@@ -47,3 +49,6 @@ function App() {
 
 ReactDOM.render(<App />, document.querySelector('#app'));
 ```
+
+## Contributing
+- see CONTRIBUTING.md
