@@ -1,13 +1,19 @@
 import React from "react";
+
+import "./App.css";
 import Flex from "../lib";
 
-const App = () => (
-  <div style={{ width: 640, margin: "15px auto" }}>
-    <Flex alignItems="center" flexFlow="row wrap">
-      <h3>Testing</h3>
-      <div>Flex</div>
-    </Flex>
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <Flex alignItems="center" flexFlow="row wrap">
+        <p>This</p>
+        <p>Content</p>
+        <p>Is</p>
+        <p>Horizontal</p>
+      </Flex>
+    </div>
+  )
+};
 
 export default App;

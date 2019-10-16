@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.App p {
+  margin: 4px
+}
