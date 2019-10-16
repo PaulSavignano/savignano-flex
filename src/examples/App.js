@@ -6,7 +6,7 @@ import Flex from "../lib";
 function App() {
   return (
     <div className="App">
-      <Flex alignItems="center" flexFlow="row wrap">
+      <Flex alignItems="center" flexFlow="row wrap" justifyContent="center" margin={10}>
         <p>This</p>
         <p>Content</p>
         <p>Is</p>

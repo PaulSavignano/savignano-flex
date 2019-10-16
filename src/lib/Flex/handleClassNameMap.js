@@ -27,19 +27,18 @@ function handleClassNameMap(props) {
   const classesAndStyles = Object.keys(styleProps)
     .filter(k => styleProps[k])
     .reduce((a, v) => {
-      const result = a
       if (classNameMap[v] && classNameMap[v][styleProps[v]]) {
-        result.classes = [...(result.classes || []), classNameMap[v][styleProps[v]]]
-        return result
+        a.classes = [...(a.classes || []), classNameMap[v][styleProps[v]]]
+        return a
       }
-      console.error(`
-      handleClassNameMap: ${[v]} ${
-  styleProps[v]
-} does not have a mapping in the classNameMap and inline style is being defined for use in styling. 
-      You may add a mapping in classNameMap.js and a css declaration in _classNameMap.scss for increased performace by elminating the cost of style redefinition.
-    `)
-      result.styles = { ...result.styles, [v]: styleProps[v] }
-      return result
+      if (process.env.NODE_ENV !== 'production') {
+        console.error(`
+          handleClassNameMap: ${[v]} ${styleProps[v]} does not have a mapping in the classNameMap and inline style is being defined for use in styling. 
+          You may add a mapping in classNameMap.js and a css declaration in _classNameMap.scss for increased performace by elminating the cost of style redefinition.
+        `)
+      }
+      a.styles = { ...a.styles, [v]: styleProps[v] }
+      return a
     }, {})
   return {
     className: classNames(className, ...(classesAndStyles.classes || [])),
