@@ -8,7 +8,7 @@ Write JavaScript Flex styles and have them served in css.
 [![NPM Downloads](https://img.shields.io/npm/dm/savignano-flex.svg?style=flat)](https://npmcharts.com/compare/savignano-flex?minimal=true)
 [![CircleCI](https://img.shields.io/circleci/build/github/PaulSavignano/savignano-flex/master.svg)](https://circleci.com/gh/PaulSavignano/savignano-flex/tree/master)
 [![codecov.io](https://codecov.io/gh/PaulSavignano/savignano-flex/branch/master/graph/badge.svg)](https://codecov.io/gh/PaulSavignano/savignano-flex)
-[![BundleSize](https://img.shields.io/bundlephobia/minzip/filter-empty.svg)](https://bundlephobia.com/result?p=filter-empty)
+[![BundleSize](https://img.shields.io/bundlephobia/minzip/savignano-flex.svg)](https://bundlephobia.com/result?p=savignano-flex)
 [![Dependencies](https://david-dm.org/PaulSavignano/savignano-flex/master/status.svg)](https://david-dm.org/PaulSavignano/savignano-flex/master)
 [![DevDependencies](https://david-dm.org/PaulSavignano/savignano-flex/master/dev-status.svg)](https://david-dm.org/PaulSavignano/savignano-flex/master?type=dev)
 [![PeerDependencies](https://david-dm.org/PaulSavignano/savignano-flex/master/peer-status.svg)](https://david-dm.org/PaulSavignano/savignano-flex/master?type=peer)
