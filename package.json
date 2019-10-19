@@ -1,6 +1,26 @@
 {
   "name": "savignano-flex",
-  "version": "0.1.4",
+  "version": "0.1.5",
+  "description": "Define flex style attributes in JavaScript as React props and have them served with css.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulSavignano/savignano-flex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PaulSavignano/savignano-flex/issues"
+  },
+  "homepage": "https://github.com/PaulSavignano/savignano-flex#readme",
+  "keywords": [
+    "React",
+    "React Components",
+    "flex"
+  ],
+  "license": "MIT",
+  "author": "Paul Savignano <paul.savignano@gmail.com> (http://github.com/PaulSavignano)",
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/PaulSavignano"
+  },
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
   "files": [
@@ -44,17 +64,18 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build-examples": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "build": "export NODE_ENV=production && rollup -c"
-  },
   "jest": {
     "collectCoverageFrom": [
       "src/lib/**/*.js",
       "!src/lib/**/__tests__/**/*.js"
     ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-examples": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build": "export NODE_ENV=production && rollup -c",
+    "postinstall": "node -e \"console.log('\\u001b[35m\\u001b[1mPlease consider supporting at collective:\\u001b[22m\\u001b[39m\\n > \\u001b[34mhttps://opencollective.com/PaulSavignano/donate\\u001b[0m')\""
   }
 }
