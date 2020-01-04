@@ -1,6 +1,6 @@
 {
   "name": "savignano-flex",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Define flex style attributes in JavaScript as React props and have them served with css.",
   "repository": {
     "type": "git",
